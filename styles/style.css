@@ -1,1 +1,250 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr 148px 1fr; 
+    align-items: center; 
+    justify-items: center; 
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+  }
+  
+
+  .header-menu {
+    grid-column: 1 / 2;
+  }
+  
+  .header__links-list {
+    list-style: circle;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header__links-list-item {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  
+  .header__logo {
+    grid-column: 2 / 3;
+    text-align: center;
+  }
+  
+  
+  .header__contacts {
+    grid-column: 3 / 4; 
+    text-align: right;
+  }
+  
+  .header__contacts a,
+  .header__contacts address {
+    display: block;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .header__contacts address {
+    font-style: normal;
+  }
+
+  .cover {
+    background-image: url(../images/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    width: 1100px;
+    height: 757px;
+    top: 293px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .overlay {
+    position: relative;
+    z-index: 1;
+  }
+
+  .cover__title {
+    letter-spacing: 0.3em;
+  }
+
+  .aligned-text {
+    width: 316px;
+    height: 115px;
+    top: 165px;
+    left: 50px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 100px;
+  }
+  
+
+  .letter-spacing-extended {
+    letter-spacing: 0.6em;
+  }
+
+  .no-letter-spacing {
+    letter-spacing: 0em;
+  }
+
+  .aligned-text_center {
+    text-align: center;
+    line-height: 1;
+  }
+
+  .aligned-text_right {
+    text-align: right;
+    line-height: 1;
+  }
+
+  .cover__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bet-button {
+    background-color: transparent;
+  }
+
+  .lots {
+    width: 1052px;
+    height: 692px;
+    top: 1229px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .lots__heading {
+    width: 121px;
+    height: 47px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+    color: #000;
+  }
+
+  .lots__card-list {
+    display: flex;
+    column-gap: 20px;
+  }
+
+  .card__title {
+    width: 254px;
+    height: 110px;
+    top: 125px;
+    left: 758px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+  }
+
+  .card__text {
+    width: 254px;
+    height: 264px;
+    top: 325px;
+    left: 758px;
+    gap: 0px;
+    opacity: 0px;
+    color: white;
+  }
+
+  .lots__look-more-link {
+    width: 192px;
+    height: 23px;
+    top: 667px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    height: 563px;
+    top: 74px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    height: 563px;
+    top: 74px;
+    left: 359px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 334px;
+    height: 563px;
+    top: 74px;
+    left: 718px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+.about__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__logo {
+  flex: 0 0 auto; 
+  width: 300px;
+  height: 300px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.about__logo-container {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__logo-image {
+  max-width: 80%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+.about__content {
+  flex: 1; 
+}
+
+.about__title {
+  font-size: 24px;
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 20px; 
+}
+
+.about__text {
+  margin: 0;
+}
+
+.about__text--first {
+  margin-bottom: 20px;
+}
