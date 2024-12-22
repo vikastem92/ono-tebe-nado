@@ -35,15 +35,18 @@
   width: 136px;
   height: 104.65px;
   }
-  
-.header__address {
-  justify-self: end;
-  width: 240px;
+
+.address {
   font-size: 18px;
   font-weight: 400;
   line-height: 24.3px;
   text-decoration-skip-ink: none;
   font-style: normal;
+}  
+
+.header__address {
+  justify-self: end;
+  width: 240px;
   }
 
 .cover {
@@ -104,6 +107,7 @@
   line-height: 28px;
   font-size: 22px;
   color: white;
+  text-transform: uppercase;
   }
 
 .cover__description-text {
@@ -272,12 +276,6 @@
   margin-top: 181px;
   }
 
-.footer_address {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 24.3px;
-  text-decoration-skip-ink: none;
-  }
 
 .footer__menu {
   display: flex;
